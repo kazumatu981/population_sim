@@ -1,0 +1,39 @@
+{
+  "name": "population-sim",
+  "version": "1.0.0",
+  "description": "Population with age structure simulator.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha ./**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazumatu981/population_sim.git"
+  },
+  "keywords": [
+    "population",
+    "deathrate",
+    "birthrate"
+  ],
+  "author": "kazumatu981@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kazumatu981/population_sim/issues"
+  },
+  "homepage": "https://github.com/kazumatu981/population_sim#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "electron": "^8.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^7.0.1"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  }
+}
